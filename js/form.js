@@ -28,8 +28,9 @@ function Post(form, event) {
     }
     
     console.log(data);
+    form.reset();
 }
 
 function Enviar() {
-    console.log('Dados enviados com sucesso!')
+    console.log('Dados enviados com sucesso!');
 }
