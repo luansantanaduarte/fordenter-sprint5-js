@@ -25,10 +25,10 @@ function Post(form, event) {
 
     if (nome.value != "") {
         alert('Obrigado sr(a) ' + nome.value + ' os seus dados foram encaminhados com sucesso');
+        form.reset();
     }
     
     console.log(data);
-    form.reset();
 }
 
 function Enviar() {
